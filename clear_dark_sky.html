@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clear Dark Sky Forecast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #ddd;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+        h1 {
+            margin: 24px 0 16px;
+            font-weight: normal;
+        }
+        .chart-container {
+            max-width: 1000px;
+            width: 100%;
+            padding: 0 16px 32px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .chart-container img {
+            max-width: 100%;
+            height: auto;
+            border: 0;
+        }
+        .hint {
+            margin-top: 12px;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clear Dark Sky Forecast</h1>
+
+    <div class="chart-container">
+        <a href="https://www.cleardarksky.com/c/CntrvllVAkey.html" target="_blank" rel="noopener noreferrer">
+            <img
+                src="https://www.cleardarksky.com/c/CntrvllVAcsk.gif?c=856850"
+                alt="Clear Dark Sky Chart"
+            >
+        </a>
+        <div class="hint">Click the chart to open the full forecast</div>
+    </div>
+</body>
+</html>
